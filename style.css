@@ -12,6 +12,36 @@ body {
     height: 100vh;
 }
 
+.container {
+    margin: 25% 20%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    font-size: 10rem;
+    padding: 3rem 6rem;
+    margin: 3rem;
+    border-radius: 50%;
+    border: 5px solid;
+}
+
+.option-btn {
+    display: block;
+    font-size: 10rem;
+    width: 100%;
+    margin-bottom: 5rem;
+    padding: 3rem 1rem;
+}
+
+.transparent-BG {
+    background-color: transparent;
+}
+
 .hidden {
     display: none;
 }
