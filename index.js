@@ -50,7 +50,8 @@ function playVideo(num) {
     }, 150)
 
     $("#video").on("ended", function() {
-        setTimeout(function() {
+        setTimeout(function(    ) {
+            $("#video")[0].pause();
             $("#video").addClass("hidden");
             buttonDiv.removeClass("hidden");
         }, 150);

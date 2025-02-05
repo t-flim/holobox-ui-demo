@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    margin: 25% 20%;
+    margin: 20% 20%;
 }
 
 .buttons {
@@ -23,19 +23,19 @@ body {
 }
 
 .btn {
-    font-size: 10rem;
-    padding: 3rem 6rem;
-    margin: 3rem;
+    font-size: 2rem;
+    padding: 2rem 3rem;
+    margin: 1rem 3rem;
     border-radius: 50%;
     border: 5px solid;
 }
 
 .option-btn {
     display: block;
-    font-size: 10rem;
+    font-size: 2rem;
     width: 100%;
-    margin-bottom: 5rem;
-    padding: 3rem 1rem;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
 }
 
 .transparent-BG {
